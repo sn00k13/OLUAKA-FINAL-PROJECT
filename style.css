@@ -1,13 +1,13 @@
 .container{
     height:auto;
     width: 100%;
-    border: 1px solid red;
-    background:rgba(202, 184, 184, 0.719);
+    /* border: 1px solid red; */
+    background:#cab8b838;
 }
 .topmenu{
     height:120vh;
     width:100%;
-    border:1px solid green;
+    /* border:1px solid green; */
     display: flex;
 }
 .nav{
@@ -21,7 +21,7 @@
 .hambholder{
     height:45px;
     width:40%;
-    border:2px solid red;
+    /* border:2px solid red; */
     display: flex;
     align-items: center;
 }
@@ -48,7 +48,7 @@
     margin-left:6px;
 }
 .kit{
-    border:2px solid blue;
+    /* border:2px solid blue; */
     height:45px;
     width:40%;
 }
@@ -62,7 +62,7 @@
 .btnft{
    height:45px;
    width:40%;
-   border:2px solid blue;
+   /* border:2px solid blue; */
    display: flex;
    justify-content: center; 
 }
@@ -74,21 +74,21 @@
 }
 .left{
     width:35%;
-    border:1px solid yellow;
+    /* border:1px solid yellow; */
     height:100vh;
 }
 .right{
     width:65%;
-    border:1px solid lime;
+    /* border:1px solid lime; */
     height:100vh;
 }
 .apex{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     height:30vh;
 }
 .a-one{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height:20vh;
     width:30%;
     margin-top:70px;
@@ -99,7 +99,7 @@
     background-repeat: no-repeat;
 }
 .a-two{
-    border:1px solid black;
+    /* border:1px solid black; */
     height:22vh;
     width:35%;
     border-radius:15px;
@@ -110,15 +110,15 @@
     background-repeat: no-repeat;
 }
 .secpex{
-   border: 1px solid blue; 
+   /* border: 1px solid blue;  */
    display: flex;
    height:30vh;
    display: flex;
 }
 .sec-one{
-    border:1px solid black;
-    height:8vh;
-    width:12%;
+    /* border:1px solid black; */
+    height:20vh;
+    width:200px;
     margin-top:50px;
     margin-left:120px;
     border-radius:70px;
@@ -127,7 +127,7 @@
     background-repeat: no-repeat;
 }
 .sec-two{
-    border:1px solid green;
+    /* border:1px solid green; */
     height:30vh;
     width:40%;
     margin-top:10px;
@@ -135,9 +135,10 @@
     background-image:url(/assets/dish7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius:30px;
 }
 .tpex{
-    border:1px solid rgb(1, 10, 1);
+    /* border:1px solid rgb(1, 10, 1); */
       width:100%;
       height:39vh;
       display: flex;
@@ -145,7 +146,7 @@
 
 }
 .t-one{
-      border:1px solid lime;
+      /* border:1px solid lime; */
       width:25%;
       height:36vh;
       margin-top:15px;
@@ -153,18 +154,20 @@
     background-image: url(/assets/gallary4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius:20px;
 }
 .t-two{
     border:1px solid black;
     width:50px;
     height:30vh;
     margin-top:10px;
+    border-radius:30px;
 }
 .ttt{
     color: orangered;
 }
 .t-three{
-    border:1px solid black;
+    /* border:1px solid black; */
     width:40%;
     height:33vh;
     justify-content: center;
