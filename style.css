@@ -5,13 +5,13 @@
     background:#cab8b838;
 }
 .topmenu{
-    height:120vh;
+    height:115vh;
     width:100%;
     /* border:1px solid green; */
     display: flex;
 }
 .nav{
-    height:50px;
+    height:60px;
     display: flex;
     width:100%;
     gap:60px;
@@ -77,6 +77,62 @@
     /* border:1px solid yellow; */
     height:100vh;
 }
+.tp{
+    padding-left: 30px;
+}
+#img1{
+    height: 50px;
+    width:90px;
+    border-radius: 60px;
+    margin-top:30px;
+}
+.dish1{
+    display: flex;
+    gap: 30px;
+    font-size:30px;
+    height:45px;
+    padding-left:30px;
+}
+#img2{
+    height:40px;
+    width:90px;
+    border-radius: 60px;
+}
+.dish2{
+    word-spacing:15px;
+    font-size: 33px;
+    padding-left:30px;
+}
+.dish33{
+    margin-bottom:60px;
+}
+.dishthree{
+    margin-bottom: 100px;
+}
+.dish3{
+    display: flex;
+    gap:20px;
+    font-size:33px;
+    height:55px;
+    width:285px;
+    align-items: center;
+    margin-bottom:30px;
+    padding-left: 30px;
+}
+.ugj{
+    display: flex;
+    width:100%;
+}
+.u-one{
+    width:30%;
+}
+
+#search{
+    height: 30px;
+    width: 85%;
+    border-radius: 30px;
+    margin-top: 200px;
+}
 .right{
     width:65%;
     /* border:1px solid lime; */
@@ -94,7 +150,7 @@
     margin-top:70px;
     border-radius:20px;
     margin-left:180px;
-    background-image:url("/assets/");
+    background-image:url("/assets/dish2.jpg");
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -131,7 +187,7 @@
     height:30vh;
     width:40%;
     margin-top:10px;
-    margin-left:160px;
+    margin-left:50px;
     background-image:url(/assets/dish7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -158,21 +214,22 @@
 }
 .t-two{
     border:1px solid black;
-    width:50px;
-    height:30vh;
+    width:40px;
+    height:20vh;
     margin-top:10px;
     border-radius:30px;
+    margin-left:150px;
+    margin-top: 40px;
 }
 .ttt{
     color: orangered;
 }
 .t-three{
     /* border:1px solid black; */
-    width:40%;
+    width:15%;
     height:33vh;
     justify-content: center;
     display: flex;
     align-items: center;
     font-size: 100px;
-    margin-top:10px;
 }
